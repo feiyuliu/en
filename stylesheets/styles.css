@@ -354,3 +354,27 @@ footer p + p {
     content: 'at http://github.com/';
   }
 }
+
+/*copyright*/
+span#poweredby {
+float:left;
+}
+
+span#copyright {
+float:right;
+}
+
+span#copyright a,span#poweredby a {
+border-bottom:0;
+color:#0E0;
+}
+
+span#copyright a:hover,span#poweredby a:hover {
+color:#FF0;
+}
+
+span#copyright,span#poweredby {
+color:#FFF;
+padding-bottom:20px;
+text-align:left;
+}
